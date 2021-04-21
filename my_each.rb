@@ -10,13 +10,5 @@ def my_each(array)
   collection
 end
 
-my_each(list) {|i| "So I think #{i} is a piece of shit"}
+my_each(list) {|i| "Hello #{i} what's up?"}
 
-# Use the collection method
-# To make the *return-value* the answer you want
-# instead of "=> nil"
-
-def hello(array)
-
-
-hello(list) {|i| "Hello #{i} what's up?"}
