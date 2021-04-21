@@ -1,11 +1,11 @@
-list = ["ab", "cd", "ef"]
-
-def my_each(array)
+def hello(array)
   i = 0
+  collection = []
   while i < array.length
-    yield(array[i])
-    i = i + 1
+    collection << yield(array[i])
+    i += 1
   end
+  collection
 end
 
-my_each(list) {|i| "So I think #{i} is a cool"}
+hello(list) {|i| "Hello #{i} what's up?"}
