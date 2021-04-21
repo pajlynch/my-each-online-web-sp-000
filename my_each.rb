@@ -9,4 +9,4 @@ def my_each(array)
   end
 end
 
-my_each(list) {|i| print "So I think #{i} is a cool"}
+my_each(list) {|i| "So I think #{i} is a cool"}
