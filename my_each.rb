@@ -11,4 +11,3 @@ def my_each(array)
 end
 
 my_each(list) {|i| "Hello #{i} what's up?"}
-
